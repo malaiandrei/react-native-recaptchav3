@@ -1,5 +1,5 @@
 {
-  "name": "@haskkor/react-native-recaptchav3",
+  "name": "react-native-recaptchav3",
   "version": "1.2.1",
   "description": "React native component to use the invisible recaptcha v3 from Google",
   "main": "dist/index.js",
@@ -12,26 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Haskkor/react-native-recaptchav3.git"
+    "url": "git+https://github.com/malaiandrei/react-native-recaptchav3.git"
   },
   "author": "Jeremy Farnault <farnaultjeremy@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Haskkor/react-native-recaptchav3/issues"
   },
-  "homepage": "https://github.com/Haskkor/react-native-recaptchav3#readme",
-  "devDependencies": {
-    "@types/react": "^16.7.3",
-    "@types/react-native": "^0.57.7",
-    "react": "^16.6.2",
-    "react-native": "^0.57.4",
-    "typescript": "^3.1.6"
-  },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "dependencies": {
-    "react-native-webview": "^11.3.2"
+  "homepage": "https://github.com/malaiandrei/react-native-recaptchav3#readme",
+   "peerDependencies": {
+     "@types/react": ">=16.9.0",
+     "@types/react-native": ">=0.60.0",
+     "typescript": ">=3.0.0",
+    "react": ">=16.9.0",
+    "react-native": ">=0.60.0",
+    "react-native-webview": ">=10.0.0"
   }
+  
 }
